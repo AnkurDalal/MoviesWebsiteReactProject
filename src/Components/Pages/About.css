@@ -1,0 +1,85 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* About Section */
+  .about-section {
+    background: linear-gradient(to right, #000000, #1a1a1a, #333333);
+    color: #fff;
+    text-align: center;
+    padding: 5rem 2rem;
+    position: relative;
+  }
+  
+  /* Title */
+  .about-title {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 15px rgba(255, 217, 0, 0.8);
+  }
+  
+  /* Subtitle */
+  .about-subtitle {
+    font-size: 1.5rem;
+    font-weight: 300;
+    opacity: 0.8;
+    margin-bottom: 2rem;
+    color: #ffcc00;
+  }
+  
+  /* Text Content */
+  .about-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: auto;
+    opacity: 0.9;
+  }
+  
+  /* Button */
+  .about-btn-container {
+    margin-top: 2rem;
+  }
+  
+  .about-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #ffcc00;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    box-shadow: 0 0 15px rgba(255, 217, 0, 0.6);
+  }
+  
+  .about-btn:hover {
+    background: #ffd700;
+    transform: scale(1.1);
+    box-shadow: 0 0 25px rgba(255, 217, 0, 0.9);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-title {
+      font-size: 2.5rem;
+    }
+  
+    .about-subtitle {
+      font-size: 1.2rem;
+    }
+  
+    .about-text {
+      font-size: 1rem;
+      padding: 0 1rem;
+    }
+  }
+  
